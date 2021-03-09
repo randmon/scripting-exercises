@@ -1,0 +1,7 @@
+Matching phone numbers: https://regexone.com/problem/matching_phone_numbers
+
+    (?:\d\s)?\(?(\d{3})\)?(?:-|\s)?(\d{3})(?:-|\s)?(\d{4})
+
+Matchine emails: https://regexone.com/problem/matching_emails?
+
+    ^([\w\.]*(?:\w*)?)(?:[\+\w]*)?@\w+(?:\.\w+)+
