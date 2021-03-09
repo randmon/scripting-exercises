@@ -1,7 +1,17 @@
+Heel nuttig: https://www.debuggex.com/
+
 Matching phone numbers: https://regexone.com/problem/matching_phone_numbers
 
     (?:\d\s)?\(?(\d{3})\)?(?:-|\s)?(\d{3})(?:-|\s)?(\d{4})
 
-Matchine emails: https://regexone.com/problem/matching_emails?
-
+Matching emails: https://regexone.com/problem/matching_emails?
     ^([\w\.]*(?:\w*)?)(?:[\+\w]*)?@\w+(?:\.\w+)+
+
+Matching HTML: https://regexone.com/problem/matching_html?
+    <(\w+)(?:[^>]*)>[^<]*(?:<\w+(?:[^>]*)>\w+</\w+>)*(?:</\w+>)$
+
+Match specific file names: https://regexone.com/problem/matching_filenames
+    (\w+).(gif|jpg|png)$
+
+Trimming whitespace from start: https://regexone.com/problem/trimming_whitespace
+    \s*(.*)\s*
