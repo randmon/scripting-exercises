@@ -1,4 +1,4 @@
 import re
 
 def contains_three_digits(string):
-    return re.fullmatch('.*\d.*\d.*\d.*', string)
+    return re.fullmatch(r'.*\d.*\d.*\d.*', string)

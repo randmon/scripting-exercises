@@ -1,4 +1,4 @@
 import re
 
 def is_number(string):
-    return re.fullmatch('^\d+(\.\d+)?', string)
+    return re.fullmatch(r'^\d+(\.\d+)?', string)
