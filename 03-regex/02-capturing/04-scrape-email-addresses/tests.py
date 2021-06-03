@@ -25,3 +25,8 @@ with reference_file('solution.py'):
         qfjlkl xyz@ppp.fr jkfljqlkj
         ''')
 
+        testcase('''
+        abcdef cristina@student.ucll.be
+        yes@yes1.com werqf fewqe . qwed
+        ''')
+
