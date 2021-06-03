@@ -122,3 +122,4 @@ dmypy.json
 
 ### Python Patch ###
 .venv/
+05-modules/data-formats/csv/imdb/csv2json/test.json
