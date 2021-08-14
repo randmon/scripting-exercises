@@ -26,3 +26,4 @@ with open("../title-basics.tsv", encoding='utf-8') as file:
     for row in reader:
         if row['tconst'] in series:
             print(row['primaryTitle'])
+            exit()

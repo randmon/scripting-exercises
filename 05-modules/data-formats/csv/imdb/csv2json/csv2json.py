@@ -1,14 +1,8 @@
 import csv
 import json
+import sys
+# must be ran like example:
+# py csv2json.py < test.csv > test.json
 
-data = {}
-with open('test.csv') as csvFile:
-        csvReader = csv.DictReader(csvFile)
-        for row in csvReader:
-                id = row['fname'] + ' ' + row['lname']
-        data[id] = row
-
-with open('test.json', 'w') as jsonf:
-        jsonf.write(json.dumps(data))
-
-print(data)
+data = list(csv.DictReader(sys.stdin))
+print(json.dumps(data))

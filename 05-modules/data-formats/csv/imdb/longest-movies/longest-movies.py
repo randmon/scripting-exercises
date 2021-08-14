@@ -1,5 +1,4 @@
 import csv
-
 top = 100
 
 def runtime(row):
@@ -21,4 +20,4 @@ results.sort(key=second, reverse=True)
 topN = results[:top]
 
 for title, seconds in topN:
-    print(f'{str(seconds).rjust(5)} - {title}')
+    print(f'{str(seconds).rjust(6)} - {title}')
