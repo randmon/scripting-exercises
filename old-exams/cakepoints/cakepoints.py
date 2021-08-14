@@ -9,3 +9,4 @@ with open('input.txt') as input:
             cashed += tekens.count('-')
 
             output.write(f"{name}:{cashed}/{earned}\n")
+#81d9348dd10929bdbfd3
