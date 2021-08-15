@@ -23,15 +23,15 @@ def randomize_answers(correct, incorrect):
     # print(correct)
     return i
     
-def get_input():
-    return input("Answer: ").strip().upper()
 
 def check_answer(quiz, user):
     if quiz[0] == user:
         print("Correct!")
     else:
         print(f"Wrong! Answer was: ({quiz[0]}) {quiz[1]}")
+
+
 print()
 letter, correct = get_question()
-answer = get_input()
+answer = input("Answer: ").strip().upper()
 check_answer([letter, correct], answer)
